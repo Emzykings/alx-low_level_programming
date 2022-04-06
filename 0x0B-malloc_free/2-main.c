@@ -16,25 +16,26 @@ int main(void)
 
 {
 
-	char *s;
+	    char *s;
 
 
 
-	s = str_concat("Betty ", "Holberton");
+	        s = str_concat("Betty ", "Holberton");
 
-	if (s == NULL)
+		    if (s == NULL)
 
-	{
+			        {
 
-	printf("failed\n");
+					        printf("failed\n");
 
-	return (1);
+						        return (1);
 
-	}
+							    }
 
-	printf("%s\n", s);
-	free(s);
+		        printf("%s\n", s);
 
-	return (0);
+			    free(s);
+
+			        return (0);
 
 }

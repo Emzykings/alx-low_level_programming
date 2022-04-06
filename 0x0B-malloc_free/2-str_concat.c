@@ -79,7 +79,7 @@ for (i = 0; i <= size1 + size2; i++)
 
 if (i < size1)
 
-[i] = s1[i];
+m[i] = s1[i];
 
 else
 
